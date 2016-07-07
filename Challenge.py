@@ -29,3 +29,5 @@ for length,words in wlengthlist.items():
 anagramctlist = collections.defaultdict(list)
 for length,words in wlengthlist.items():
     anagramctlist[length] = sum(len(anagram_fast(word))-1 for word in words if len(anagram_fast(word)) > 1)/2
+    
+print('I made a change')
