@@ -4,6 +4,9 @@ Created on Fri Jul 01 09:39:22 2016
 
 @author: Danius
 """
+#Challenge from Lynda.com
+#Find the number of anagrams per word length
+
 import collections
 
 wordlist = sorted(list(set([word.strip().lower() for word in open('words','r')])))
